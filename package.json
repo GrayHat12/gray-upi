@@ -1,6 +1,6 @@
 {
   "name": "capacitor-gray-upi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Plugin for UPI",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -60,5 +60,8 @@
   },
   "bugs": {
     "url": "https://github.com/GrayHat12/gray-upi/issues"
+  },
+  "dependencies": {
+    "docdash": "^1.2.0"
   }
 }
