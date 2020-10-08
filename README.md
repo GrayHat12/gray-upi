@@ -47,7 +47,7 @@ const { GrayUPI } = Plugins;
 
 // ...code
 
-//function to get location (handle errors yourself)
+//function to start payment (handle errors yourself)
 startPayment = async () => {
   GrayUPI.addListener('onTransactionCompleted', (res: any) => {
     alert(JSON.stringify(res));
