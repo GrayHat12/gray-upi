@@ -43,7 +43,7 @@ Now you should be set to go. Try to run your client using `npx cap open android`
 import { Plugins } from '@capacitor/core';
 import 'capacitor-gray-upi';
 
-const { GrayGeolocation } = Plugins;
+const { GrayUPI } = Plugins;
 
 // ...code
 
